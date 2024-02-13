@@ -24,7 +24,7 @@ toolbx enter github-dev
 ```
 
 - The terminal will change to reflect entering the container, else you can verify the container is initialized in Podman Desktop
-- If using VS Code, remotely connect to the container - any conda environments you installed in the host are available in /var/home/atomic/PATH/TO/CONDA
+- If using VS Code, remotely connect to the container - any conda environments you installed in the host are available in /var/home/atomic/PATH/TO/CONDA, /var/home/atomic is a mirror of $HOME on the host system
 - I find this method convenient for me, I spin up a venv in my working directory and pip install other requirements there
 - Drop a .gitignore to avoid uploading everything to Github
 
